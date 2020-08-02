@@ -1,0 +1,26 @@
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\bin\Debug\Staff Mentoring System.exe.config
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\bin\Debug\Staff Mentoring System.exe
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\bin\Debug\Staff Mentoring System.pdb
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\bin\Debug\Staff Mentoring System.xml
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\bin\Debug\Guna.UI.dll
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff Mentoring System.vbprojAssemblyReference.cache
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.Form1.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.Resources.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff Mentoring System.vbproj.GenerateResource.cache
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff Mentoring System.vbproj.CopyComplete
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff Mentoring System.exe
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff Mentoring System.xml
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff Mentoring System.pdb
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\bin\Debug\Staff.mdb
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.SignUp.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.mainmenu.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.Gems.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.Result.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.Form3.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.SubjectRegistration.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.Sms.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.StudentInformation.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.Sending.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.SubjectPrint.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.StudentRegistration.resources
+C:\Users\shxz\Desktop\MSU\SEM 4\VB\Staff Mentoring System\Staff Mentoring System\obj\Debug\Staff_Mentoring_System.Subject.resources

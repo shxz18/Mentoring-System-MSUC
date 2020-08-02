@@ -1,0 +1,1191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Staff Mentoring System
+</name>
+</assembly>
+<members>
+<member name="T:Staff_Mentoring_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Staff_Mentoring_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Staff_Mentoring_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet.MentorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet.ParentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet.StudentInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet.MentorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet.ParentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet.StudentInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet.MentorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet.ParentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet.StudentInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSetTableAdapters.MentorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSetTableAdapters.ParentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSetTableAdapters.StudentInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSetTableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.Database1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.linkerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.MentorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.ParentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.StudentInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.linkerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.MentorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.ParentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.StudentInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.linkerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.MentorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.ParentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1.StudentInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1TableAdapters.linkerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1TableAdapters.MentorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1TableAdapters.ParentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1TableAdapters.StudentInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSet1TableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.Database1DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.linkerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.MentorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.ParentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.StudentInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.linkerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.MentorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.ParentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.StudentInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.linkerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.MentorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.ParentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2.StudentInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2TableAdapters.linkerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2TableAdapters.MentorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2TableAdapters.ParentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2TableAdapters.StudentInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.Database1DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.Database1DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.Database1DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.Database1DataSet2TableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.Database1DataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.Database1DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet.StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet.StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet.StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetTableAdapters.StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.StaffDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.StaffDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.StaffDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetTableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.StaffDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1.GemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1.StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1.GemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1.StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1.GemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1.StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1TableAdapters.GemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1TableAdapters.StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.StaffDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.StaffDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.StaffDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet1TableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.StaffDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2.GemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2.ResultDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2.StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2.GemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2.ResultRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2.StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2.GemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2.ResultRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2.StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2TableAdapters.GemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2TableAdapters.ResultTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2TableAdapters.StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.StaffDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.StaffDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.StaffDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet2TableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.StaffDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet3.SubjectRegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet3.SubjectRegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet3.SubjectRegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet3TableAdapters.SubjectRegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.StaffDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.StaffDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.StaffDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet3TableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.StaffDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet4.SubjectRegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet4.SubjectRegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet4.SubjectRegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet4TableAdapters.SubjectRegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.StaffDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.StaffDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.StaffDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSet4TableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.StaffDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.GemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.ParentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.ResultDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.SubjectRegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.GemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.ParentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.ResultRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.SubjectRegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.GemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.ParentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.ResultRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaru.SubjectRegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.GemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.ParentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.ResultTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.SubjectRegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.StaffDataSetBaru,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.StaffDataSetBaru,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.StaffDataSetBaru,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.StaffDataSetBaru)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetBaruTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGems">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGems.GemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGems.ResultDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGems.StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGems.GemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGems.ResultRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGems.StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGems.GemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGems.ResultRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGems.StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGemsTableAdapters.GemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGemsTableAdapters.ResultTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGemsTableAdapters.StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGemsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetGemsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.StaffDataSetGems,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetGemsTableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.StaffDataSetGems,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetGemsTableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.StaffDataSetGems,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetGemsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetGemsTableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.StaffDataSetGems)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGemsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetGemsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetResult">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudents">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudents.ParentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudents.StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudents.ParentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudents.StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudents.ParentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudents.StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudentsTableAdapters.ParentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudentsTableAdapters.StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudentsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetStudentsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.StaffDataSetStudents,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetStudentsTableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.StaffDataSetStudents,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetStudentsTableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.StaffDataSetStudents,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetStudentsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetStudentsTableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.StaffDataSetStudents)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudentsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetStudentsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetUpdated">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetUpdated.SubjectRegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetUpdated.SubjectRegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetUpdated.SubjectRegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetUpdatedTableAdapters.SubjectRegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetUpdatedTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetUpdatedTableAdapters.TableAdapterManager.UpdateUpdatedRows(Staff_Mentoring_System.StaffDataSetUpdated,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetUpdatedTableAdapters.TableAdapterManager.UpdateInsertedRows(Staff_Mentoring_System.StaffDataSetUpdated,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetUpdatedTableAdapters.TableAdapterManager.UpdateDeletedRows(Staff_Mentoring_System.StaffDataSetUpdated,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetUpdatedTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Staff_Mentoring_System.StaffDataSetUpdatedTableAdapters.TableAdapterManager.UpdateAll(Staff_Mentoring_System.StaffDataSetUpdated)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetUpdatedTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Staff_Mentoring_System.StaffDataSetUpdatedTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
